@@ -1,0 +1,25 @@
+{
+  "name": "cosmosdb-data-architecture",
+  "version": "1.0.0",
+  "description": "Cosmos DB Data Architecture Examples with Node.js SDK",
+  "main": "cosmosClient.js",
+  "scripts": {
+    "start": "node cosmosClient.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "cosmosdb",
+    "azure",
+    "nosql",
+    "data-architecture"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/cosmos": "^4.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

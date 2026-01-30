@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "cosmosDbAccountName": {
+      "value": "cosmos-data-arch-demo"
+    },
+    "primaryLocation": {
+      "value": "eastus"
+    },
+    "secondaryLocation": {
+      "value": "westus2"
+    },
+    "consistencyLevel": {
+      "value": "Session"
+    },
+    "enableAutomaticFailover": {
+      "value": true
+    },
+    "enableMultipleWriteLocations": {
+      "value": false
+    },
+    "databaseName": {
+      "value": "ProductCatalog"
+    },
+    "databaseThroughput": {
+      "value": 400
+    }
+  }
+}
